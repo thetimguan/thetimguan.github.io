@@ -54,7 +54,8 @@
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="index.html#about">About</a></li>
             <li class="navbar-item">
             <a class="navbar-link" href="index.html#interaction" data-popover="#interactionNavPopover">Interaction Design</a>
             <div id="interactionNavPopover" class="popover">
@@ -81,7 +82,7 @@
             </div>
           </li>
           <li class="navbar-item">
-            <a class="navbar-link" href="#graphic" data-popover="#codeNavPopover">Graphic &amp; Web Design</a>
+            <a class="navbar-link" href="index.html#graphic" data-popover="#codeNavPopover">Graphic &amp; Web Design</a>
             <div id="codeNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
@@ -110,7 +111,7 @@
           </li>
             
             <li class="navbar-item">
-            <a class="navbar-link" href="#media" data-popover="#moreNavPopover">Traditional Media</a>
+            <a class="navbar-link" href="index.html#media" data-popover="#moreNavPopover">Trad. Media</a>
             <div id="moreNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
@@ -131,7 +132,7 @@
               </ul>
             </div>
           </li>
-            <li class="navbar-item"><a class="navbar-link" href=#contact>Contact</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="index.html#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -254,17 +255,38 @@
 <!-- User Testing -->
     <div class="docs-section" id="usertesting">
     <h6 class="docs-header">User Testing</h6>
-    <h6 class="docs-header">Procedure</h6>
-    <u>Use cases</u>
+    <h6 class="docs-header">Use Cases</h6>
+    <p>We identified two use cases that we felt highlighted the core features and benefits of the app:</p>
+        <ul>
+        <li>As a college student/young professional, I want to book a flight for my weekend getaway right now.</li>
+        <li>As a college student/young professional, I want to book a flight for my weekend getaway at the cheapest price now.</li></ul>
     <div class="row">
-        <div class="six columns">Use case 1</div>
-        <div class="six columns">Use case 1</div>
-        </div>
+    <h6 class="docs-header">Procedure</h6>
+        <ul><li>Each of three users was presented with the prototype without any information about the nature of the application. The intent of this was to see if the purpose was clear by virtue of the design. At the stage of the initial loading screen, one participant thought FlyNow was a messaging app (given the symbolism of the paper airplane), but by the time the onboarding sequence was finished, all participants understood the purpose unaided.</li>
+        <li>Each participant was then given one of the above use cases and asked to perform the required actions in the app. They were asked to speak their thoughts as they did so.</li></ul>
+    </div>
+    <h6 class="docs-header">Insights</h6>
+    <ul><li>Users felt the dashboard was too crowded visually with the amount of text on each card.</li>
+        <li>Two of the participants said they expected a search bar in the app and were shocked when one wasn't present.</li>
+        <li>Users expressed they felt a lack of security when there was no payment confirmation screen.</li>
+        <li>One user said they found it difficult to find the prices of flights</li>
+        <li>All participants appreciated the information given about each destination. One in particular chose to go to Denver, a city of which he knew very little, because of the information provided by the app.</li></ul>
     </div>
 <!-- Future Directions -->
     <div class="docs-section" id="future">
-    <h6 class="docs-header">Future Directions</h6>    
+    <h6 class="docs-header">Future Directions</h6> 
+    <p>I'm currently working on the second iteration of the prototype which will focus on improving the current prototype in the following ways:</p>
+    <ul>
+        <li><strong>Visual Clutter:</strong> I noticed in hindsight that I used a lot of font sizes. In this next iteration, I hope to minimize the font variety. In addition, I'll conduct some user testing to see what information is crucial to include on the Dashboard and eliminate all other text for clarity.</li>
+        <li><strong>Search Bar:</strong> It is possible to implement a search bar without pivoting. For example, a search may come back empty if there is not an exceptionally inexpensive flight to and from the requested destination.</li>
+        <li><strong>Payment Confirmation:</strong> It's important to that users feel secure when making payments on the app. The sacrifice of adding a tap to the user flow is far outweighed by this need.</li>
+        <li>I will explore other options for featuring prices to make them more visible.</li>
+        </ul>
+    <p>Our team is scheduled to pitch our product to a team of judges in the coming weeks. Depending on the success of the pitch, we may begin to flesh out the back-end to build a fully functional application.</p>
     </div>
+    <div class="docs-section" id="back">
+        <a class="button button-primary" href="index.html#interaction">More Interaction Design</a>
+        </div>
 <!-- End Container -->
     <footer><p>2015 Tim Guan</p></footer>
     </div>
