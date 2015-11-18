@@ -21,7 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="dist/css/normalize.css">
   <link rel="stylesheet" href="dist/css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/main.css">
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -41,21 +41,21 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row">
         <section class="header">
-      <h2 class="title"> TIM GUAN</h2>
-            <h5>UI/UX Designer &#8226; Web Developer &#8226; Programmer</h5>
+      <p style="font-size: 7rem; margin-bottom:0;"><strong>TIM GUAN</strong></p>
+      <p style="font-size: 2rem; margin-top:-1rem;">UI/UX Designer &#8226; Web Developer &#8226; Programmer</p>
         <a class="button button-primary" href=#about>About Me</a>
         <a class="button button-primary" href=#>Blog</a>
-      <div class="value-props row">
+      <div class="value-props row" style="margin-top:1rem;">
+      <div class="four columns value-prop">
+         <a class="header-link" href=#interaction>
+          <img width=60% class="value-img" src="images/interactionfat.png">
+          <p></p><p style="color:#000; font-weight:600">Interaction Design</p><p></p>
+         </a></div>
        <div class="four columns value-prop">
            <a class="header-link" href=#graphic>
           <img width = 60% class="value-img" src="images/webdesignwide.png">
           <p></p><p style="color: #000; font-weight:600">Graphic &amp; Web Design</p><p></p>
             </a></div>
-     <div class="four columns value-prop">
-         <a class="header-link" href=#interaction>
-          <img width=60% class="value-img" src="images/interactionfat.png">
-          <p></p><p style="color:#000; font-weight:600">Interaction Design</p><p></p>
-         </a></div>
         <div class="four columns value-prop">
           <a class="header-link" href=#media>
             <img width = 60% class="value-img" src="images/traditional.png">
@@ -72,6 +72,31 @@
       <div class="container">
         <ul class="navbar-list">
           <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+            <li class="navbar-item">
+            <a class="navbar-link" href="#interaction" data-popover="#interactionNavPopover">Interaction Design</a>
+            <div id="interactionNavPopover" class="popover">
+              <ul class="popover-list">
+                <li class="popover-item">
+                  <a class="popover-link" href="#flynow">FlyNow</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#myfinances">MyFinances</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#menu">Sierra Nevada Tasting Menu</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#Convene">Convene</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#ondo">Ondo</a>
+                </li>
+                <li class="popover-item">
+                  <a class="popover-link" href="#lowpoly">Low Poly Self Portrait</a>
+                </li>
+              </ul>
+            </div>
+          </li>
           <li class="navbar-item">
             <a class="navbar-link" href="#graphic" data-popover="#codeNavPopover">Graphic &amp; Web Design</a>
             <div id="codeNavPopover" class="popover">
@@ -100,31 +125,7 @@
               </ul>
             </div>
           </li>
-            <li class="navbar-item">
-            <a class="navbar-link" href="#interaction" data-popover="#interactionNavPopover">Interaction Design</a>
-            <div id="interactionNavPopover" class="popover">
-              <ul class="popover-list">
-                <li class="popover-item">
-                  <a class="popover-link" href="#flynow">FlyNow</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#myfinances">MyFinances</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#menu">Sierra Nevada Tasting Menu</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#Convene">Convene</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#ondo">Ondo</a>
-                </li>
-                <li class="popover-item">
-                  <a class="popover-link" href="#lowpoly">Low Poly Self Portrait</a>
-                </li>
-              </ul>
-            </div>
-          </li>
+            
             <li class="navbar-item">
             <a class="navbar-link" href="#media" data-popover="#moreNavPopover">Traditional Media</a>
             <div id="moreNavPopover" class="popover">
@@ -147,6 +148,7 @@
               </ul>
             </div>
           </li>
+            <li class="navbar-item"><a class="navbar-link" href=#contact>Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -160,6 +162,18 @@
 <p>
 Thanks for visiting!</p>
         </div>
+        
+ <!-- Interaction Design -->
+    <div class="docs-section" id="interaction">
+      <h6 class="docs-header">Interaction Design</h6>
+    <div class="row">
+        <div class="four columns img-Wrap" id="flynow"><a href=#><img width=100% src="images/interactionsquares/flynowsquare.png" /><span class="text-content"><span>FlyNow</span></span></a></div>
+        <div class="four columns img-Wrap" id="menu"><a href=#><img width=100% src="images/interactionsquares/menusquare.png" /><span class="text-content"><span>Tasting Menu</span></span></a></div>
+        <div class="four columns img-Wrap" id="myfinances"><a href=#><img width=100% src="images/interactionsquares/myfinancessquare.png" /><span class="text-content"><span>Berkeley myFinances</span></span></a></div>
+        </div>
+      </div>
+
+        
     <!-- Graphic-->
         <div class="docs-section" id="graphic">
             <h6 class="docs-header">Graphic &amp; Web Design</h6>
@@ -168,29 +182,40 @@ Thanks for visiting!</p>
             <div class="four columns img-Wrap" id="sierrashampoo.png"><a href=#><img width=100% src="images/graphicsquares/shampoobottlesquare.jpg" /><span class="text-content"><span>Sierra Nevada Shampoo</span></span></a></div>
             <div class="four columns img-Wrap" id="sutardja"><a href=#><img width=100% src="images/graphicsquares/sutardjasquare-01.png" /><span class="text-content"><span>Sutardja Center</span></span></a></div>
     </div>
-    <div class="row" style="padding-top:3%">
+    <div class="row" style="padding-top:3%; padding-bottom:5%;">
         <div class="four columns img-Wrap" id="lowpoly"><a href=#><img width=100% src="images/graphicsquares/lowpolysquare.png" /><span class="text-content"><span>Low Poly Illustrations</span></span></a></div>
         <div class="four columns img-Wrap" id="ucbmun"><a href=#><img width=100% src="images/graphicsquares/ucbmunsquare.png" /><span class="text-content"><span>UCBMUN Rebrand</span></span></a></div>
         <div class="four columns img-Wrap" id="wlp"><a href=#><img width=100% src="images/graphicsquares/wlpsquare.png" /><span class="text-content"><span>World Literacy Project</span></span></a></div>
     </div>
 
-    <!-- Interaction Design -->
-    <div class="docs-section" id="interaction">
-      <h6 class="docs-header">Interaction Design</h6>
-        <p>Type is all set with the <code>rems</code>, so font-sizes and spatial relationships can </p>
-      </div>
+   
 
-
-    <!-- Buttons -->
+    <!-- Traditional Media -->
     <div class="docs-section" id="media">
       <h6 class="docs-header">Traditional Media &amp; Photography</h6>
-        <p>Buttons come</p> 
+        <div class="row">
+            <div class="four columns img-Wrap" id="paintings"><a href=#><img width=100% src="images/mediasquares/paintingsquares.png" /><span class="text-content"><span>Paintings</span></span></a></div>
+            <div class="four columns img-Wrap" id="sketch"><a href=#><img width=100% src="images/mediasquares/sketchsquares.png" /><span class="text-content"><span>Sketchbook</span></span></a></div>
+            <div class="four columns img-Wrap" id="sculptures"><a href=#><img width=100% src="images/mediasquares/sculpturesquare" /><span class="text-content"><span>Sculptures</span></span></a></div>
+        </div>
+        <div class="row" style="padding-top:3%;">
+        <div class="four columns img-Wrap" id="photo"><a href=#><img width=100% src="images/mediasquares/photosquare.png" /><span class="text-content"><span>Photography</span></span></a></div>
+        <div class="four columns img-Wrap" id="drawings"><a href=#><img width=100% src="images/mediasquares/drawingssquare.png" /><span class="text-content"><span>Drawings</span></span></a></div>
+        </div>
         </div>
 
-
-
+<!-- Contact -->
+    <div class="docs-section" id="contact">
+        <h6 class="docs-header">Drop Me a Line</h6>
+        
     </div>
+<!-- End Container -->
+    </div>
+
+
+        
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+<footer><p>2015 Tim Guan</p></footer>
 </html>
