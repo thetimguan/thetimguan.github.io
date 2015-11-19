@@ -21,3 +21,21 @@
     padding-bottom:20rem;
     background-image: url('../images/sierranevada/menu-header.jpg');
 }
+
+.sculpture{
+    background-image:url('../images/sculpture/header.jpg');
+}
+
+.sketchbook{
+    padding-bottom:10rem;
+    background-image: url('../images/sketch/header.jpg');
+}
+
+.drawing{
+    background-image: url('../images/drawings/header.jpg');
+}
+
+.photography{
+    color:#222;
+    background-image:url('../images/photography/header.jpg');
+}
