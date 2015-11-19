@@ -14,3 +14,10 @@
     background-size: 100%;
   background-image: url('../images/paintings/header.jpg');
 }
+
+.menu{
+    color:#222;
+    padding-top:10rem;
+    padding-bottom:20rem;
+    background-image: url('../images/sierranevada/menu-header.jpg');
+}
