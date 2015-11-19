@@ -1,0 +1,16 @@
+.header {
+    color:white;
+/*    text-shadow: 0px 0px 6px #004444;*/
+    padding-top:10rem;
+    padding-bottom:20rem;
+    background-size: 100%;
+  background-image: url('../images/flynow/flynowheaderthin.png');
+}
+
+.paintings{
+    color:white;
+    padding-top:10rem;
+    padding-bottom:10rem;
+    background-size: 100%;
+  background-image: url('../images/paintings/header.jpg');
+}
