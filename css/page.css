@@ -43,3 +43,16 @@
 .myfinances{
     background-image: url('../images/myfinances/header.png');
 }
+
+.lowpoly{
+    padding-top:14rem;
+    padding-bottom:10rem;
+    color:#222;
+    background-image: url('../images/lowpoly/header.png');
+}
+
+.shampoo{
+    color: #222;
+    padding-bottom:10rem;
+    background-image: url('../images/sierranevada/shampoo-header.jpg');
+}
