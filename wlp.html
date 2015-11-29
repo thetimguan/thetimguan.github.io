@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Tim Guan</title>
+  <title>World Literacy Project - Tim Guan</title>
   <meta name="description" content="Portfolio in Design and Traditional Media">
   <meta name="author" content="Tim Guan">
 
@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="dist/css/normalize.css">
   <link rel="stylesheet" href="dist/css/skeleton.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/page.css">
+  <link rel="stylesheet" href="dist/lightbox/css/lightbox.css">
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -40,11 +42,8 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="row">
-        <section class="header">
-      <p style="font-size: 7rem; margin-bottom:0; font-weight:500;">TIM GUAN</p>
-      <p style="font-size: 2rem; margin-top:-1rem;">Product Designer &#8226; Web Developer</p>
-        <a class="button button-primary" href=#about>About Me</a>
-        <a class="button button-primary" href=#>Blog</a>
+        <section class="header wlp">
+      <h2 class="title">World Literacy Project</h2>
     </section>
     </div>
     <div class="container">
@@ -54,14 +53,14 @@
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-            <li class="navbar-item"><a class="navbar-link" href="#">Home</a></li>
-          <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="index.html">Home</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="index.html#about">About</a></li>
             <li class="navbar-item">
-            <a class="navbar-link" href="#interaction" data-popover="#interactionNavPopover">Interaction Design</a>
+            <a class="navbar-link" href="index.html#interaction" data-popover="#interactionNavPopover">Interaction Design</a>
             <div id="interactionNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
-                  <a class="popover-link" href="#flynow">FlyNow</a>
+                  <a class="popover-link" href="#">FlyNow</a>
                 </li>
                 <li class="popover-item">
                   <a class="popover-link" href="#myfinances">MyFinances</a>
@@ -82,7 +81,7 @@
             </div>
           </li>
           <li class="navbar-item">
-            <a class="navbar-link" href="#graphic" data-popover="#codeNavPopover">Graphic &amp; Web Design</a>
+            <a class="navbar-link" href="index.html#graphic" data-popover="#codeNavPopover">Graphic &amp; Web Design</a>
             <div id="codeNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
@@ -111,7 +110,7 @@
           </li>
             
             <li class="navbar-item">
-            <a class="navbar-link" href="#media" data-popover="#moreNavPopover">Trad. Media</a>
+            <a class="navbar-link" href="index.html#media" data-popover="#moreNavPopover">Trad. Media</a>
             <div id="moreNavPopover" class="popover">
               <ul class="popover-list">
                 <li class="popover-item">
@@ -132,74 +131,56 @@
               </ul>
             </div>
           </li>
-            <li class="navbar-item"><a class="navbar-link" href=#contact>Contact</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="index.html#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <!-- About Tim -->
-    <div class="docs-section" id="about">
-      <h6 class="docs-header">About Tim Guan</h6>
-        <p>Hi there! I’m Tim. I'm a product designer specializing in UI/UX and web development. For a short summary of what I've done, you can find my resum&eacute; <a href="tgresume1115.pdf" target="_blank">here.</a></p>
-        <p>Right now, I’m in my third year as an undergraduate student at UC Berkeley, where I’m pursuing majors in cognitive neuroscience and molecular biology with a minor in computer science. Thematically, I study the mind at the interface of these disciplines, and how their combined knowledge informs such diverse fields as medicine, neuroscience, and human-centered design.</p>
-<p>This website houses an assortment of my past works and projects.</p>
-<p>
-Thanks for visiting!</p>
-        </div>
+    <!-- Introduction -->
+    <div class="docs-section">
+    <h6 class="docs-header">Introduction</h6>
         
- <!-- Interaction Design -->
-    <div class="docs-section" id="interaction">
-      <h6 class="docs-header">Interaction Design</h6>
+        <p><a href="http://wlp.berkeley.edu">World Literacy Project</a> seeks to raise awareness on international issues relating to poverty, illiteracy, and gender inequity. One way it reaches out to the community is through Educational Outreach Programs (EOP). EOP works with children to educate them on international affairs, literacy, and cultural diversity through interactive games, reading and writing exercises, and arts and crafts. Every year, WLP also designs and implements one international literacy program. In the past, it's worked worked with BuildOn to build a school in Nicaragua, taught computer literacy in Guatemala, and implemented activities at a sustainable kindergarten in Peru. </p>
+        <p>As publicity director, one of my projects was to redesign the club logo.</p>
+    </div>
+    <div class="docs-section">
+    <h6 class="docs-header">Old Logo</h6>
     <div class="row">
-        <div class="four columns img-Wrap" id="flynow"><a href="flynow.html"><img width=100% src="images/interactionsquares/flynowsquare.png" /><span class="text-content"><span>FlyNow</span></span></a></div>
-        <div class="four columns img-Wrap" id="menu"><a href="tasting.html"><img width=100% src="images/interactionsquares/menusquare.png" /><span class="text-content"><span>Tasting Menu</span></span></a></div>
-        <div class="four columns img-Wrap" id="myfinances"><a href="myfinances.html"><img width=100% src="images/interactionsquares/myfinancessquare.png" /><span class="text-content"><span>Berkeley myFinances</span></span></a></div>
+        <div class="five columns">
+        <ul><li>I had some problems with the old logo. The first was that it looked like a collection of clip art that had been spliced together. I felt the logo lacked a sense of professionalism that we would need if we wanted to be taken seriously.</li>
+            <li>I also had my qualms about the typography, which featured a felt marker font. </li>
+            <li>Finally, I thought there were too many colors in the logo, making it visually crowded and difficult to print on publicity materials.</li></ul>
         </div>
-      </div>
-
-        
-    <!-- Graphic-->
-        <div class="docs-section" id="graphic">
-            <h6 class="docs-header">Graphic &amp; Web Design</h6>
+        <div class="seven columns">
+            <img src="images/wlp/old.jpeg" width=70%>
+        </div></div></div>
+    
+    <div class="docs-section">
+        <h6 class="docs-header">New Logo</h6>
         <div class="row">
-            <div class="four columns img-Wrap" id="sutardja"><a href=#><img width=100% src="images/graphicsquares/collidersquare.png" /><span class="text-content"><span>Innovation Collider</span></span></a></div>
-            <div class="four columns img-Wrap" id="sierrashampoo.png"><a href="shampoo.html"><img width=100% src="images/graphicsquares/shampoobottlesquare.jpg" /><span class="text-content"><span>Sierra Nevada Shampoo</span></span></a></div>
-            <div class="four columns img-Wrap" id="sutardja"><a href=#><img width=100% src="images/graphicsquares/sutardjasquare-01.png" /><span class="text-content"><span>Sutardja Center</span></span></a></div>
-    </div>
-    <div class="row" style="padding-top:3%; padding-bottom:5%;">
-        <div class="four columns img-Wrap" id="lowpoly"><a href="lowpoly.html"><img width=100% src="images/graphicsquares/lowpolysquare.png" /><span class="text-content"><span>Low Poly Illustrations</span></span></a></div>
-        <div class="four columns img-Wrap" id="ucbmun"><a href=#><img width=100% src="images/graphicsquares/ucbmunsquare.png" /><span class="text-content"><span>UCBMUN Rebrand</span></span></a></div>
-        <div class="four columns img-Wrap" id="wlp"><a href="wlp.html"s><img width=100% src="images/graphicsquares/wlpsquare.png" /><span class="text-content"><span>World Literacy Project</span></span></a></div>
-    </div>
-
-   
-
-    <!-- Traditional Media -->
-    <div class="docs-section" id="media">
-      <h6 class="docs-header">Traditional Media &amp; Photography</h6>
-        <div class="row">
-            <div class="four columns img-Wrap" id="paintings"><a href="paintings.html"><img width=100% src="images/mediasquares/paintingsquares.png" /><span class="text-content"><span>Paintings</span></span></a></div>
-            <div class="four columns img-Wrap" id="sketch"><a href="sketch.html"><img width=100% src="images/mediasquares/sketchsquares.png" /><span class="text-content"><span>Sketchbook</span></span></a></div>
-            <div class="four columns img-Wrap" id="sculptures"><a href="sculpture.html"><img width=100% src="images/mediasquares/sculpturesquare" /><span class="text-content"><span>Sculptures</span></span></a></div>
+        <div class="five columns"><ul><li>First, I took away the googly eyes and clip art aesthetic in favor of a more straightforward, professional look.</li>
+            <li>I also decided to reduce the number of colors for two reasons: first, I thought it made the logo less visually complicated, and second, It reduced the cost of printing the logo on publicity materials.</li>
+            <li>For the new logo typography, I chose to use DIN. My rationale was that legibility would be paramount for a logo, especially one advocating literacy. DIN was first designed for use on German traffic signs, so I found it fitting.</li></ul>
         </div>
-        <div class="row" style="padding-top:3%;">
-        <div class="four columns img-Wrap" id="photo"><a href="photo.html"><img width=100% src="images/mediasquares/photosquare.png" /><span class="text-content"><span>Photography</span></span></a></div>
-        <div class="four columns img-Wrap" id="drawings"><a href="drawings.html"><img width=100% src="images/mediasquares/drawingssquare.png" /><span class="text-content"><span>Drawings</span></span></a></div>
+        <div class="seven columns">
+            <img src="images/wlp/new.png" width=80%>
+        </div></div>
         </div>
-        </div>
-
-<!-- Contact -->
-    <div class="docs-section" id="contact">
-        <h6 class="docs-header">Drop Me a Line</h6>
         
-    </div>
+        
+    <!-- More Media -->
+    <div class="docs-section" id="back">
+        <a class="button button-primary" href="index.html#graphic">More Graphic &amp; Web Design</a>
+        </div>
 <!-- End Container -->
+    <footer><p>2015 Tim Guan</p></footer>
     </div>
 
 
         
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="dist/lightbox/js/lightbox-plus-jquery.js"></script>
 </body>
-<footer><p>2015 Tim Guan</p></footer>
+
 </html>
