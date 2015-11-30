@@ -73,3 +73,10 @@
     background-image:url('../images/ucbmun/header.png');
     text-align:right
 }
+
+.about{
+    color: #222;
+    padding-top:20rem;
+    padding-bottom:45rem;
+    background-image:url('../images/about.jpg');
+}
