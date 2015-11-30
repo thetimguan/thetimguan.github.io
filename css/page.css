@@ -66,3 +66,10 @@
     background-image:url('../images/innovation/header.png');
     padding-bottom:10rem;
 }
+
+.ucbmun{
+    color:#222;
+    padding-bottom:10rem;
+    background-image:url('../images/ucbmun/header.png');
+    text-align:right
+}
