@@ -80,3 +80,18 @@
     padding-bottom:45rem;
     background-image:url('../images/about2.jpg');
 }
+
+.platform-title{
+    text-align: left;
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 70%;
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+.platform{
+    background-image: url('../images/platform/platform-cover.jpg');
+    padding-bottom:45rem;
+    
+}
